@@ -1,0 +1,27 @@
+a {
+    background: blue;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    width: 150px;
+    display: inline-block;
+}
+table {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    padding: 10px auto;
+    text-align: left;
+    color: black;
+    background-color: #fff;
+}
+
+table tr {
+    background-color: #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff;
+}
